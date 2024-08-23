@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SEM1
+namespace Progra_sem1
 {
     class Program
     {
         static void Main(string[] args)
         {
-
+            Console.ReadLine();
         }
     }
 }

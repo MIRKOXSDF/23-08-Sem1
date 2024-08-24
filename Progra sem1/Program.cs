@@ -10,6 +10,12 @@ namespace Progra_sem1
     {
         static void Main(string[] args)
         {
+            Development development;
+            development = new Development();
+            development.IforElse();
+            development.Swicht();
+            development.For();
+            development.While();
             Console.ReadLine();
         }
     }

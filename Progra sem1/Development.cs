@@ -103,6 +103,10 @@ namespace Progra_sem1
 
             }
         }
+        public void Sumar()
+        {
+            
+        }
 
     }
 }

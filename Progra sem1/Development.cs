@@ -57,12 +57,23 @@ namespace Progra_sem1
         {
             for (int i = 1; i <= 5; i++)
             {
+                
                 char letra = (char)(('A'-1) + i);
                 count++;
                 Console.WriteLine(letra + "." +count);
             }
         }
-      
+        public void While()
+        {
+            while(a>1)
+            {
+               
+
+                a--;
+                Console.WriteLine(a);
+
+            }
+        }
 
     }
 }

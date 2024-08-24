@@ -15,6 +15,7 @@ namespace Progra_sem1
             development.IforElse();
             development.Swicht();
             development.For();
+            development.While();
             Console.ReadLine();
         }
     }

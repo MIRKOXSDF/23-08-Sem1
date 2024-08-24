@@ -13,6 +13,7 @@ namespace Progra_sem1
         float b = 20f;
         int semanas=3;
         int count = 0;
+        int[] array=new int[5];
         public void IforElse()
         {
             if(a<b)
@@ -71,6 +72,23 @@ namespace Progra_sem1
 
                 a--;
                 Console.WriteLine(a);
+
+            }
+        }
+        public void Arreglo()
+        {
+            array[0]= 5;
+            array[1] = 8;
+            array[2] = 6;
+            array[3] = 1;
+            array[4] = 3;
+
+
+            Console.WriteLine("Arreglos :");
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
 
             }
         }

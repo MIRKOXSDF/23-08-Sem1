@@ -9,13 +9,17 @@ namespace Progra_sem1
    
     class Development
     {
-        float a=14f;
+        float a;
         float b=20f;
-        int semanas=3;
+        int semanas=4;
         int count = 0;
         int[] array=new int[5];
-       
-       
+        Semana semana;
+
+        public Development(int a)
+        {
+            this.a = a;
+        }
         public void IforElse()
         {
             if(a<b)
@@ -24,13 +28,13 @@ namespace Progra_sem1
             }
             else
             {
-                Console.WriteLine("-" + b + " es mayor que " + a);
+                Console.WriteLine("." + b + " es mayor que " + a);
 
             }
         }
         public void Swicht()
         {
-            Semana semana=new Semana();
+            semana = new Semana(14);
             switch (semanas)
             {
                 case 1:

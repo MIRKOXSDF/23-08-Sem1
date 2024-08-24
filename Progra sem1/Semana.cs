@@ -10,6 +10,11 @@ namespace Progra_sem1
     {
       
 
+        public Semana(int a) : base(a)
+        {
+
+        }
+
         public void EstadoSemana(string semana)
         {
             Console.WriteLine(semana);

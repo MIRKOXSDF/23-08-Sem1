@@ -103,9 +103,10 @@ namespace Progra_sem1
 
             }
         }
-        public void Sumar()
+        public void Sumar(int numero1 , int numero2)
         {
             
+            Console.WriteLine("La suma es : " + numero1 + numero2);
         }
 
     }

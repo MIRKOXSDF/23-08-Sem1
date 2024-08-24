@@ -17,13 +17,15 @@ namespace Progra_sem1
             development.For();
             development.While();
             development.Arreglo();
+
             Development development1 = new Perro(14);
             Development development2 = new Gato(14);
 
 
             development1.Mensaje();
             development2.Mensaje();
-           
+            development.Sumar(4, 5);
+
 
             Console.ReadLine();
         }

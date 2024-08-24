@@ -14,7 +14,7 @@ namespace Progra_sem1
             development = new Development();
             development.IforElse();
             development.Swicht();
-            
+            development.For();
             Console.ReadLine();
         }
     }

@@ -11,7 +11,7 @@ namespace Progra_sem1
         static void Main(string[] args)
         {
             Development development;
-            development = new Development(14);
+            development = new Development();
             development.IforElse();
             development.Swicht();
             development.For();

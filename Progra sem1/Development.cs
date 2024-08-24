@@ -9,16 +9,13 @@ namespace Progra_sem1
    
     class Development
     {
-        float a;
-        float b = 20f;
+        float a=14f;
+        float b=20f;
         int semanas=3;
         int count = 0;
         int[] array=new int[5];
-
-        public Development(int a)
-        {
-            this.a = a;
-        }
+       
+       
         public void IforElse()
         {
             if(a<b)
@@ -33,28 +30,29 @@ namespace Progra_sem1
         }
         public void Swicht()
         {
-            switch(semanas)
+            Semana semana=new Semana();
+            switch (semanas)
             {
                 case 1:
-                    Console.WriteLine("Lunes");
+                    semana.EstadoSemana("Lunes");
                     break;
                 case 2:
-                    Console.WriteLine("Martes");
+                    semana.EstadoSemana("Martes");
                     break;
                 case 3:
-                    Console.WriteLine("Miercoles");
+                    semana.EstadoSemana("Miercoles");
                     break;
                 case 4:
-                    Console.WriteLine("Jueves");
+                    semana.EstadoSemana("Jueves");
                     break;
                 case 5:
-                    Console.WriteLine("Viernes");
+                    semana.EstadoSemana("Viernes");
                     break;
                 case 6:
-                    Console.WriteLine("Sabado");
+                    semana.EstadoSemana("Sabado");
                     break;
                 case 7:
-                    Console.WriteLine("Domingo");
+                    semana.EstadoSemana("Domingo");
                     break;
 
             }

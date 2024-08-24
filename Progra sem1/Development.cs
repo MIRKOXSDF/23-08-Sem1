@@ -9,16 +9,21 @@ namespace Progra_sem1
    
     class Development
     {
-        float a = 14f;
+        float a;
         float b = 20f;
         int semanas=3;
         int count = 0;
         int[] array=new int[5];
+
+        public Development(int a)
+        {
+            this.a = a;
+        }
         public void IforElse()
         {
             if(a<b)
             {
-                Console.WriteLine("-" + a + " es menor que " + b);
+                Console.WriteLine("." + a + " es menor que " + b);
             }
             else
             {

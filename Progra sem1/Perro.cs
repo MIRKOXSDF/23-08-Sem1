@@ -6,19 +6,16 @@ using System.Threading.Tasks;
 
 namespace Progra_sem1
 {
-    class Semana : Development
+    class Perro : Development
     {
-      
-
-        public Semana(int a) :base(a)
+        public Perro(int a) :base(a)
         {
 
         }
-
-        public void EstadoSemana(string semana)
+        public override void Mensaje()
         {
-            Console.WriteLine(semana);
+            Console.WriteLine("Soy yo el que hace buya");
         }
-    
+
     }
 }

@@ -20,6 +20,10 @@ namespace Progra_sem1
         {
             this.a = a;
         }
+        public  virtual void Mensaje()
+        {
+            Console.WriteLine("Alguien hace buya???");
+        }
         public void IforElse()
         {
             if(a<b)

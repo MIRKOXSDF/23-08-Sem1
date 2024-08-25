@@ -16,7 +16,7 @@ namespace Progra_sem1
         int[] array=new int[5];
         Semana semana;
         List<string> listaDeNotas = new List<string>();
-
+        Dictionary<string, float> personas = new Dictionary<string, float>();
         public Development(int a)
         {
             this.a = a;
@@ -129,5 +129,19 @@ namespace Progra_sem1
                 Console.WriteLine(nota);
             }
         }
+        public void Censo()
+        {
+            personas.Add("Julio", 20);
+            personas.Add("Roberto", 6);
+            personas.Add("Martin", 80);
+            personas.Add("Paolo", 17);
+
+            foreach (var persona in personas)
+            {
+                Console.WriteLine($"Nombre : {persona.Key} - Edad : {persona.Value}");
+            }
+
+        }
+
     }
 }

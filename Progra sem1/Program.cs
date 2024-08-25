@@ -29,7 +29,7 @@ namespace Progra_sem1
             Comida comida = new Peces();
             comida.ComidaAnimales();
             development.Listas();
-
+            development.Censo();
             Console.ReadLine();
         }
     }

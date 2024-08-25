@@ -14,5 +14,7 @@ namespace Progra_sem1
         void For();
 
         void Listas();
+
+        void Censo();
     }
 }

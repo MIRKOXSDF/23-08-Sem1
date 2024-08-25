@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Progra_sem1
 {
 
-     class Development
+     class Development:IMetodos
     {
         float a;
         float b=20f;

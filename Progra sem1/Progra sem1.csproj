@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comida.cs" />
     <Compile Include="Gato.cs" />
+    <Compile Include="Peces.cs" />
     <Compile Include="Perro.cs" />
     <Compile Include="Semana.cs" />
     <Compile Include="Development.cs" />

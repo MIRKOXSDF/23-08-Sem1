@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Progra_sem1
 {
-   
-    class Development
+
+     class Development
     {
         float a;
         float b=20f;
@@ -107,6 +107,13 @@ namespace Progra_sem1
         {
             
             Console.WriteLine("La suma es : " + numero1 + numero2);
+        }
+        public int Restar(int numero1 , int numero2)
+        {
+            int result = numero1 - numero2;
+            Console.WriteLine("La resta es : " + result);
+            return result;
+
         }
 
     }

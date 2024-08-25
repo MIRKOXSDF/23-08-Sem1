@@ -17,7 +17,6 @@ namespace Progra_sem1
             development.For();
             development.While();
             development.Arreglo();
-
             Development development1 = new Perro(14);
             Development development2 = new Gato(14);
 
@@ -29,6 +28,7 @@ namespace Progra_sem1
 
             Comida comida = new Peces();
             comida.ComidaAnimales();
+            development.Listas();
 
             Console.ReadLine();
         }

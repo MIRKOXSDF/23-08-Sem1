@@ -15,6 +15,7 @@ namespace Progra_sem1
         int count = 0;
         int[] array=new int[5];
         Semana semana;
+        List<string> listaDeNotas = new List<string>();
 
         public Development(int a)
         {
@@ -116,5 +117,17 @@ namespace Progra_sem1
 
         }
 
+        public void Listas()
+        {
+            listaDeNotas.Add("Ana");
+            listaDeNotas.Add("Julia");
+            listaDeNotas.Add("Roberta");
+            listaDeNotas.Add("Valeria");
+
+            foreach (string nota in listaDeNotas)
+            {
+                Console.WriteLine(nota);
+            }
+        }
     }
 }

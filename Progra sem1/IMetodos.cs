@@ -12,5 +12,7 @@ namespace Progra_sem1
         void Swicht();
 
         void For();
+
+        void Listas();
     }
 }
